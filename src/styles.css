@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+:root {
+    /* Background Color */
+    --secondary-color: #496ff7;
+    --bg-blue: #37418e;
+    --bg-white: #fff;
+    --bg-dark-blue: #292b70;
+    --bg-gray: #ecf0f9;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-blue: #1f294c;
+    --text-gray: #6d6e7b;
+    --text-white: #fff;
+
+    /* Fonts */
+    --primary-font: 'Open Sans Condensed', sans-serif;
+    --secondary-font: 'open sans', sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom: 16px;
+}
+
+h2 {
+    line-height: 64px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--text-blue);
+    margin-bottom: 15px;
+    letter-spacing: 0;
+}
+
+p {
+    color: var(--text-gray);
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+

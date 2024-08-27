@@ -1,0 +1,22 @@
+.card-img-top{
+     object-fit: cover;
+}
+
+.eventImage{
+    min-height: 50vh;
+     height: 50vh; 
+}
+.btn-purple-moon {
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 1px solid #a1cdff;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-purple-moon:hover{
+    background: #8f94fb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7278e0, #8f94fb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7278e0, #8f94fb);
+}
